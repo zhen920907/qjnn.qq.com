@@ -1,0 +1,47 @@
+.top {
+  height: 40px;
+  border-bottom: 1px solid #C9C9C9;
+  background: url(../image/ost-bg.png) no-repeat 0 -38px;
+}
+
+/* nav开始 */
+.nav {
+  height: 96px;
+  background: pink;
+}
+.nav .logo {
+  width: 221px;
+  height: 72px;
+  margin-top:11px;
+  float: left;
+  background: yellow;
+}
+.nav ul {
+  background: deepskyblue;
+  margin-top: 34px;
+  margin-left: 22px;
+  float: left;
+}
+.nav ul li {
+  float: left;
+  font-size: 16px;
+  width: 100px;
+  text-align: center;
+  color: #5F3E4F;
+  position : relative;
+}
+.nav ul li:last-child {
+  width : 67px;
+  padding-left: 18px;
+  
+}
+.line {
+  content:'';
+  background: #C0C1C2;
+  width: 1px;
+  height: 16px;
+  position : absolute;
+  top : 0px;
+  left : 0px;
+}
+/* nav结束 */
