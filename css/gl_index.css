@@ -1,0 +1,229 @@
+.gl_top {
+  height: 40px;
+  border-bottom: 1px solid #C9C9C9;
+  background: url(../images/gl_images/ost-bg.png) no-repeat 0 -38px;
+}
+
+/* nav开始 */
+.gl_nav {
+  height: 96px;
+  /* background: pink; */
+}
+.gl_nav .gl_logo {
+  width: 221px;
+  height: 72px;
+  margin-top:11px;
+  float: left;
+  background: url(../images/gl_images/logo.png);
+}
+.gl_nav ul {
+  /* background: deepskyblue; */
+  margin-top: 34px;
+  float: right;
+}
+.gl_nav ul li {
+  float: left; 
+  width: 101px;
+  text-align: center;
+  position : relative;
+  cursor: pointer;
+}
+.gl_nav ul li:last-child {
+  width : 67px;
+  padding-left: 18px;
+  
+}
+.gl_nav ul li a {
+  color: #5F3E4F;
+  font-size: 16px;
+}
+.gl_nav ul li:nth-child(5) a {
+  color: #EB8594;
+}
+.gl_nav ul li a:hover {
+  color : orange;
+}
+.gl_line1::after {
+  content:'';
+  display: inline-bolck;
+  background: #C0C1C2;
+  width: 1px;
+  height: 18px;
+  position : absolute;
+  top : 1px;
+  left : 100px;
+}
+/* nav结束 */
+
+/* banner开始 */
+.gl_banner {
+  width: 100%;
+  height: 676px;
+  background: url(../images/gl_images/hd_bar.jpg) no-repeat top center;
+  /* position: relative; */
+}
+.gl_banner .gameGl {
+  /* position: absolute; */
+  margin-top : 493px;
+  /* background: pink; */
+}
+.gl_banner .gameGl .gameGl_title{
+  width: 130px;
+  height: 32px;
+  /* background: pink; */
+  background: url(../images/gl_images/sprite.png) 0 -129px;
+  margin-bottom: 34px;
+}
+.gl_banner .gameGl span {
+  font-size : 18px;
+  color : #5F3E4F;
+}
+.gl_banner .gameGl span:nth-child(4) {
+  color : #EB8594;
+}
+
+
+.gl_banner .gameGl a {
+  font-size: 18px;
+  color : #000;
+}
+.gl_banner .gameGl .title_bar{
+  margin-top : 36px;
+  width: 1000px;
+  height: 52px;
+  line-height: 52px;
+  cursor: pointer;
+  /* text-align: center; */
+  background: url(../images/gl_images/title_bar.png);
+}
+.gl_banner .gameGl .title_bar li {
+  float: left;
+  list-style: none;
+  width: 25%;
+  text-align: center;
+  font-size: 20px;
+  color: #5F3E4F;
+  position: relative;
+  /* margin-right:  */
+}
+.gl_banner .gameGl .title_bar .liColor {
+  color : #EB8594;
+
+}
+.gl_line2::after {
+  content: '';
+  display: block;
+  width: 250px;
+  height: 3px;
+  background: #DF5768;
+  position: absolute;
+  top: 50px;
+}
+/* banner结束 */
+
+/* 活动攻略activeGl开始 */
+.activeGl {
+  /* background: pink; */
+  margin-top : 11px;
+}
+.activeGl li {
+  height: 50px;
+  line-height: 50px;
+  border-bottom : 1px dotted #DF5768;
+  position: relative;
+
+}
+.activeGl li a {
+  color: #000;
+  font-size: 16px;
+}
+.activeGl li a:hover{
+  color : #DF5768;
+  text-decoration: underline;
+}
+.activeGl li span {
+  color : #000;
+  font-size: 16px;
+  position: absolute;
+  /* top : ; */
+  right : 1px;
+}
+.activeGl .next_page {
+  width: 112px;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  border: 1px solid #5F3E4F;
+  margin: 15px auto 0;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.activeGl .next_page a {
+  font-size: 14px;
+  color: #000;
+}
+/* 活动攻略activeGl结束 */
+
+/* 底部footer开始 */
+.gl_footer {
+  background: #B77986;
+  height: 86px;
+  margin-top: 95px;
+ 
+}
+.gl_footer .glf_w {
+  text-align: center;
+  height: 72px;
+  padding-top: 14px;
+}
+.gl_footer ul {
+  /* background: #000; */
+ 
+}
+.gl_footer ul li {
+  float: left;
+  position: relative;
+
+}
+.gl_footer ul li:nth-child(1) {
+  margin-left: 191px;
+}
+.gl_footer ul li a {
+  padding: 0 5px;
+  color : #fff;
+ 
+}
+.gl_line3::after {
+  content: '';
+  display: inline-block;
+  width: 1px;
+  height: 12px;
+  background: #fff;
+  position: absolute;
+  top :3px;
+  right: -1px;
+}
+.gl_footer .glf_w p:nth-child(2) {
+  margin-top : 4px;
+}
+.gl_footer p span {
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+  font-size: 10px;
+}
+.gl_footer .glf_w p:nth-child(3) {
+  margin-top : 4px;
+}
+.gl_footer p a {
+  color: #fff;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+/* 底部footer结束 */
+/* body {
+  height: 2500px;
+  /* overflow: hidden; */
+} */
