@@ -1,20 +1,24 @@
-header{
+/*头部开始*/
+header {
 	border: 1px solid #E4E7EA;
 }
-.tencent_logo{
+
+.tencent_logo {
 	margin-left: 100px;
 	float: left;
 	height: 40px;
 	width: 232px;
 	background: url(../images/head-bg.png) 0px -37px no-repeat;
 }
-.game_start{
+
+.game_start {
 	float: left;
 	height: 40px;
 	width: 230px;
 	background: url(../images/game_start.jpg);
 }
-.grow_protect{
+
+.grow_protect {
 	padding-left: 20px;
 	background: url("../images/logo_point.png") left center no-repeat;
 	font-size: 14px;
@@ -23,25 +27,30 @@ header{
 	float: right;
 	line-height: 40px;
 }
-.game_rank{
+
+.game_rank {
 	line-height: 40px;
 	font-size: 14px;
 	width: 110px;
 	height: 40px;
 	float: right;
 }
-nav{
+/*导航栏开始*/
+nav {
 	line-height: 96px;
 }
-nav .logo{
+
+nav .logo {
 	margin-left: 60px;
 	float: left;
 }
-nav ul{
+
+nav ul {
 	float: left;
 	margin-left: 32px;
 }
-nav ul li{
+
+nav ul li {
 	color: #5f3e4f;
 	height: 96px;
 	float: left;
@@ -49,130 +58,314 @@ nav ul li{
 	margin: 0 8px;
 	cursor: pointer;
 }
-nav ul li:hover{
-	color:#f77f0b
+
+nav ul li:hover {
+	color: #f77f0b
 }
-.introduce{
+/*背景大图介绍*/
+.introduce {
 	width: 100%;
 	height: 766px;
 	background: url("../images/bg_01.jpg") center no-repeat;
 }
-.news{
+/*新闻部分开始*/
+.news {
 	height: 280px;
 	position: relative;
-	background: url("../images/bg_02.jpg") repeat-x;
+	background: url("../images/bg_02.jpg") center no-repeat;
 }
-.news .warp{
+
+.news .warp {
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
 	top: -66px;
 }
-.news .left{
+
+.news .left {
 	float: left;
 	width: 525px;
 	overflow: hidden;
 }
-.news .left ul{
+
+.news .left ul {
 	width: 1575px;
 }
-.news .left li{
+
+.news .left li {
 	float: left;
 }
-.news .center{
+
+.news .center {
 	width: 430px;
 	float: left;
 	padding-left: 16px;
 	background-color: white;
 }
-.news .tab{
+
+.news .tab {
 	font-size: 18px;
 	height: 52px;
 	float: left;
 	border-bottom: 1px solid #C9C9C9;
 }
-.news .tab li{
+
+.news .tab li {
 	text-align: center;
 	width: 94px;
 	float: left;
 	line-height: 52px;
 }
-.news .tab li{
+
+.news .tab li {
 	float: left;
 }
-.news .tab .more{
+
+.news .tab .more {
 	background: url("../images/btn.png") -16px -12px no-repeat;
 	width: 22px;
 	height: 22px;
 	float: right;
 	margin-top: 16px;
 }
-.news .tab .current{
+
+.news .tab .current {
 	border-bottom: 2px solid red;
 }
-.news .content{
+
+.news .content {
 	width: 400px;
 	height: 250px;
 	float: left;
 	margin: 0 10px;
 }
-.news .content li{
+
+.news .content li {
 	height: 50px;
 	line-height: 50px;
 	font-size: 14px;
 }
-.news .content a{
+
+.news .content a {
 	color: #5f3e4f;
 }
-.news .content span{
+
+.news .content span {
 	float: right;
 }
-.news .right{
+
+.news .right {
 	float: left;
 	background: url("../images/qr-bg.jpg") no-repeat;
 	width: 225px;
 	height: 300px;
 }
-.travel{
+/*美好之旅开始*/
+.travel {
 	text-align: center;
 	height: 511px;
 	background: url("../images/bg_03.jpg") center top no-repeat;
 	line-height: 511px;
 }
 .travel .wooden{
+	margin-top: 66px;
+}
+/*游戏特色开始*/
+.feature{
+	background: url("../images/bg_04.jpg")top center ;
+	height: 570px;
+}
+.feature .pics{
+	margin-top: 80px;
+	overflow: hidden;
+	position: relative;
+	
+}
+.feature .ts{
+	height: 460px;
+	width: 6000px;
 	position: relative;
 }
-.travel li{
+
+.feature .ts li{
+	height: 100%;
+	width: 1200px;
+	float: left;
+}
+.feature .spans{
+	bottom: 4px;
 	left: 50%;
 	transform: translateX(-50%);
 	position: absolute;
 }
-.arrow{
-	opacity: 0;
+.feature span{
+	background-color: white;
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	border-radius: 14px;
+	box-shadow: 0px 1px 2px 1px #e47e80;
+	margin-left: 5px;
+}
+.feature span:hover{
+	cursor: pointer;
+}
+.feature span.current{
+	background-color: #e47e80;
+}
+
+/*游戏攻略开始*/
+.game{
+	height: 516px;
+	background: url("../images/bg_05.jpg") top center no-repeat;
+}
+.game .gu{
+	height: 430px;
+	margin-top: 64px;
+	background-color: white;
+}
+.game .gu>li{
+	float: left;
+	height: 430px;
+	width: 400px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.game .gu h3{
+	font-size: 20px;
+	line-height: 60px;
+	height: 60px;
+	background: url("../images/cmore.png") right center no-repeat;
+	border-bottom: 1px solid #cccccc;
+}
+.game .glul img{
+	margin-top: 20px;
+	width: 100%;
+}
+.game .glul li{
+	height: 40px;
+	line-height: 40px;
+}
+.glul a{
+	color:#5f3e4f;
+	font-size: 14px;
+}
+.glul a:hover{
+	text-decoration: underline;
+	color: red;
+}
+.game .tg{
+	height: 300px;
+	width: 360px;
+	margin: 20px 15px 46px 0;
+	
 	position: relative;
-	z-index: 99;
-	top:50%;
+}
+.game .tg .tgc{
+	height: 255px;
+	width: 316px;
+	border-right: 1px solid #e8e8e8;
+	border-bottom: 1px solid #e8e8e8;
+	margin: 42px 0 0px 42px;
+	overflow-y: scroll;
+}
+.game .tg .tgc::-webkit-scrollbar{
+	width: 6px;
+	height: 219px;
+	background: #fff;
+}
+.game .tg .tgc:hover::-webkit-scrollbar-thumb{
+	width: 3px;
+	background: #d4d4d4;
+	border-radius: 5px;
+}
+
+.game .tgc li{
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+}
+.game .tgc a{
+	margin: 0 auto;
+	display: block;
+	width: 188px;
+	text-align: left;
+	font-size: 14px;
+}
+.game .flower{
+	width: 160px;
+	height: 44px;
+	position: absolute;
+	text-align: center;
+	line-height: 44px;
+	color: white;
+	font-size: 16px;
+}
+.game .flower:hover{
+	cursor: pointer;
+}
+.game .flower1{
+	background: url("../images/strategy.png") top center no-repeat ;
+	top: 0;
+	left: 40px;
 	
 }
-.prev,.next{
-	width:76px;
-	height:112px;
+.game .flower2{
+	background: url("../images/strategy.png") bottom center no-repeat ;
+	top: -2px;
+	left: 200px;
+	
+}
+.game .flower3{
+	background: url("../images/strategy.png") left center no-repeat ;
+	top: 26px;
+	left: 0px;
+	width: 44px;
+	height: 160px;
+	
+}
+.game .flower span{
+	display: block;
+	width: 30px;
+	line-height: 18px;
 	position: absolute;
-	top:50%;
-	margin-top:-56px;
-	background: url(../images/prev.png) no-repeat;
-	z-index: 99;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
 }
-.next{
-	right:0;
-	background-image: url(../images/next.png);
+.game .flower4{
+	background: url("../images/strategy.png") right center no-repeat ;
+	top: 155px;
+	left: 0px;
+	width: 44px;
+	height: 160px;
+}
+.game .skill{
+	width: 362px;
+	height: 310px;
+	box-sizing: border-box;
+	
+	margin-top: 25px;
 }
 
+.game .skill li{
+	text-align: center;
+	margin-right: 2px;
+	margin-bottom: 10px;
+	width: 86px;
+	height: 97px;
+	float: left;
+	border: 1px solid #E8E8E8;
+	background-color: #F8F8F8;
+}
+/*游戏特色开始*/
 
 
-
-
-
+/*同人部分*/
+.tongren{
+	height: 593px;
+	background: url("../images/bg_06.jpg") top center no-repeat;
+}
 
 
 
