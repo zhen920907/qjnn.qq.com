@@ -1,0 +1,156 @@
+/*公共类开始*/
+a, b, body, dd, del, div, dl, dt, em, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var, input {
+    margin: 0;
+    padding: 0;
+}
+*{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+li {
+    list-style: none;
+}
+img,button,input {
+    border: 0;
+}
+em, i, u {
+    font-style: normal;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {
+    *zoom: 1;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+
+/*公共类结束*/
+.container{
+    width: 1200px;
+    margin:0 auto;
+}
+
+
+
+.hd_bar{
+    height: 450px !important;
+    background: url(../images/img_lz/hd_bar.jpg) no-repeat center center;
+
+}
+
+.section {
+    padding-left:40px ;
+    height: 1300px;
+    box-sizing: border-box;
+    /*background-color: beige;*/
+}
+.sec_title{
+    margin-top: 80px;
+    width: 230px;
+    height: 60px;
+    background: url("../images/img_lz/title.png") no-repeat 0 -188px ;
+}
+.tag_title{
+    font-size: 20px;
+    margin: 20px 10px;
+}
+.tag_title >a{
+    color:#000;
+    text-decoration:none;
+}
+.tag_title > .content_title{
+    color:#e57e80;
+}
+
+.btn-ico{
+    width: 1050px;
+  margin-top: 60px;
+  padding-left:10px;
+  box-sizing: border-box;
+}
+.btn-ico li{
+    width: 15%;
+    line-height: 158px;
+    float: left;
+    text-align: left;
+    /*margin-bottom: 25px;*/
+}
+.btn-ico li img{
+    width: 124px;
+    height: 132px;
+    vertical-align: bottom;
+}
+.btn-ico li.now img{
+    width: 148px;
+    height: 158px;
+}
+
+.section .line,
+.section .end_line
+{
+    width: 1050px;
+    height: 1px;
+    background-color: #ccc;
+}
+.section .line{
+    margin-top: 80px;
+}
+
+.section .end_line{
+    margin-top: 5px;
+}
+.section .info{
+    width: 1050px;
+    height: 1850px;
+    margin-top: 40px;
+    overflow: hidden;
+    /*background-color: purple;*/
+
+}
+.section .info ul{
+    width: 1050px;
+    height: 1850px;
+    overflow: hidden;
+}
+.section .info ul.now{
+    display: block;
+}
+.section .info ul li{
+    width: 247px;
+    margin-top: 15px;
+    display: inline-block;
+}
+.section .info ul li a{
+    text-decoration: none;
+    color:#000;
+}
+
+.section .info ul li p {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #ccc;
+    font-size: 12px;
+    border-radius: 15px;
+    text-align: center;
+    margin : 20px auto;
+}
+
+
+
+
+
