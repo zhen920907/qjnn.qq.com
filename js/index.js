@@ -4,13 +4,12 @@ $(document).ready(function () {
 	Caroursel.init($('.caroursel'));
 	
 	//给游戏攻略里的技能介绍图片设置属性
-	let lis = document.querySelectorAll(".skill li img");
 	$(".skill li img").each(function (index) {
 		$(this).css({
-			src:"images/jnjs/"+(index+1)+".png",
 			width : 74+"px",
 			height : 74+"px"
 		});
+		$(this).attr("src","images/jnjs/"+(index+1)+".png");
 	});
 	
 	//给游戏特色里的li添加背景图片
