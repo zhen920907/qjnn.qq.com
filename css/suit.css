@@ -44,15 +44,103 @@ a{
     margin:0 auto;
 }
 
+/*相框效果*/
+/*html {
+    background: url("images/hd_bar.jpg") no-repeat 50% 50%;
+    background-size: cover;
+    height: 100%;
+}*/
+/*body {
+    max-width: 40em;
+    margin: 0 auto;
+}*/
+img {
+    max-width: 100%;
+}
+.polaroid {
+    z-index: 300;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    width: 50%;
+    padding-bottom: 25%;
+    max-width: 80em;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-style: solid;
+    border-color: #fff;
+    border-width: 1em 1em 2.5em;
+    box-shadow: 0 0 1em rgba(153,153,153,0.4), 0 0 4em rgba(0,0,0,0.7), 0 0 30em rgba(0,0,0,0.5), 0 0 40em #000;
+    -webkit-animation: swing 3.5s ease-in-out forwards infinite;
+    animation: swing 3.5s ease-in-out forwards infinite;
+    -webkit-transform-origin: 50% -10em;
+    transform-origin: 50% -10em;
+}
+/*.polaroid::before,*/
+/*.polaroid::after {*/
+/*content: '';*/
+/*position: absolute;*/
+/*bottom: 100%;*/
+/*height: 4em;*/
+/*width: 0.2em;*/
+/*background-color: #000;*/
+/*}*/
+.polaroid::before {
+    -webkit-transform: skew(3deg);
+    transform: skew(3deg);
+    left: 0.5em;
+}
+.polaroid::after {
+    -webkit-transform: skew(-3deg);
+    transform: skew(-3deg);
+    right: 0.5em;
+}
+@-webkit-keyframes swing {
+    0% {
+        -webkit-transform: translateX(-50%) rotate(10deg);
+        transform: translateX(-50%) rotate(10deg);
+    }
+    50% {
+        -webkit-transform: translateX(-50%) rotate(-10deg) skewX(5deg) skewY(-2deg) scale(1.1);
+        transform: translateX(-50%) rotate(-10deg) skewX(5deg) skewY(-2deg) scale(1.1);
+    }
+    100% {
+        -webkit-transform: translateX(-50%) rotate(10deg);
+        transform: translateX(-50%) rotate(10deg);
+    }
+}
+@keyframes swing {
+    0% {
+        -webkit-transform: translateX(-50%) rotate(10deg);
+        transform: translateX(-50%) rotate(10deg);
+    }
+    50% {
+        -webkit-transform: translateX(-50%) rotate(-10deg) skewX(5deg) skewY(-2deg) scale(1.1);
+        transform: translateX(-50%) rotate(-10deg) skewX(5deg) skewY(-2deg) scale(1.1);
+    }
+    100% {
+        -webkit-transform: translateX(-50%) rotate(10deg);
+        transform: translateX(-50%) rotate(10deg);
+    }
+}
 
 
+
+/*相框效果*/
+
+.nav.w{
+    z-index: 999999999999999 !important;
+    background-color: #fff;
+}
 .hd_bar{
     height: 450px !important;
+    background-size: cover;
     background: url(../images/img_lz/hd_bar.jpg) no-repeat center center;
 
 }
 
 .section {
+    margin-top: 200px;
     padding-left:40px ;
     height: 1300px;
     box-sizing: border-box;
