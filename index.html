@@ -5,13 +5,14 @@
 		<meta name="viewport"
 		      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-		<link href="css/community/community.css" rel="stylesheet">
 		<link href="favicon.ico" rel="shortcut icon" />
 		<link href="css/base.css" rel="stylesheet">
+		<link href="css/carousel.css" rel="stylesheet">
+		
 		<link href="css/index.css" rel="stylesheet">
 	</head>
 	<body>
+		<!--header-->
 		<header class="clearfix">
 			<div class="w">
 				<div class="tencent_logo"></div>
@@ -22,6 +23,7 @@
 				</div>
 			</div>
 		</header>
+		<!---导航栏-->
 		<nav class="w clearfix">
 			<div class="logo">
 				<img src="images/logo.png" alt="logo">
@@ -44,9 +46,11 @@
 				<li>玩家社区</li>
 			</ul>
 		</nav>
+		<!--背景大图介绍-->
 		<div class="introduce w">
 			<!--<img src="images/bg_01.jpg" alt="">-->
 		</div>
+		<!--新闻-->
 		<div class="news clearfix">
 			<div class="warp w">
 				<div class="left">
@@ -97,20 +101,135 @@
 				</div>
 			</div>
 		</div>
-		<div class="travel">
-			<div class="wooden w">
-				<ul>
-					<li><img src="images/travel/1.jpg" alt=""></li>
-					<li><img src="images/travel/2.jpg" alt=""></li>
-					<li><img src="images/travel/3.jpg" alt=""></li>
-					<li><img src="images/travel/4.jpg" alt=""></li>
-					<li><img src="images/travel/5.jpg" alt=""></li>
+		<!--美好之旅-->
+		<div class="travel clearfix">
+			
+			<div class="wooden w caroursel poster-main " data-setting='{
+	        "width":1000,
+	        "height":398,
+	        "posterWidth":640,
+	        "posterHeight":398,
+	        "scale":0.8,
+	        "dealy":"2000",
+	        "algin":"middle"
+	    }'>
+				<ul class="poster-list">
+					<li class="poster-item"><img src="images/travel/1.jpg" width="100%" height="100%"></li>
+					<li class="poster-item"><img src="images/travel/2.jpg" width="100%" height="100%"></li>
+					<li class="poster-item"><img src="images/travel/3.jpg" width="100%" height="100%"></li>
+					<li class="poster-item"><img src="images/travel/4.jpg" width="100%" height="100%"></li>
+					<li class="poster-item"><img src="images/travel/5.jpg" width="100%" height="100%"></li>
 				</ul>
-				<div class="arrow">
-					<a href="#" class="prev" id="arrLeft"></a>
-					<a href="#" class="next" id="arrRight"></a>
+				<div class="poster-btn poster-prev-btn"></div>
+				<div class="poster-btn poster-next-btn"></div>
+			</div>
+		</div>
+		<!--游戏特色-->
+		<div class="feature clearfix">
+			<div class="pics w">
+				<ul class="ts">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					
+				</ul>
+				<div class="spans">
+					<span class="current"></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
 				</div>
 			</div>
 		</div>
+		<!--游戏攻略-->
+		<div class="game clearfix">
+			<div class="content w">
+				<ul class="gu">
+					<li>
+						<h3>活动攻略</h3>
+						<ul class="glul">
+							<img src="images/gl.jpg" alt="">
+							<li>
+								<a href="#">[活动攻略]</a><a href="#">【新套装】大喵废墟萌装 遇见十二星座</a>
+							</li>
+							<li>
+								<a href="#">[活动攻略]</a><a href="#">【套装制作】苹果联邦之流逝的回忆</a>
+							</li>
+							<li>
+								<a href="#">[活动攻略]</a><a href="#">【套装制作】苹果联邦之未完的约定</a>
+							</li>
+							<li>
+								<a href="#">[活动攻略]</a><a href="#">【盘点】那些奇迹大陆知识问答的服饰（3）</a>
+							</li>
+							<li>
+								<a href="#">[活动攻略]</a><a href="#">【盘点】那些奇迹大陆知识问答的服饰（2）</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<h3>通关攻略</h3>
+						<div class="tg clearfix">
+							<div class="tgc">
+								<ul>
+									<li><a href="#">第一章：初到麦川</a></li>
+									<li><a href="#">第二章：童话世界莉莉斯</a></li>
+									<li><a href="#">第三章：糖果女巫与星之海</a></li>
+									<li><a href="#">第四章：设计师茶会</a></li>
+									<li><a href="#">第五章：风云骤变的茶话会</a></li>
+									<li><a href="#">第六章：云端花田奇遇</a></li>
+									<li><a href="#">第七章：长街醉月楼</a></li>
+									<li><a href="#">第八章：神秘月下城</a></li>
+									<li><a href="#">第九章：梦幻搭配赛序曲</a></li>
+									<li><a href="#">第十章：梦幻搭配赛小组赛</a></li>
+									<li><a href="#">第十一章：梦幻搭配赛决赛</a></li>
+									<li><a href="#">第十二章：王城的混乱</a></li>
+									<li><a href="#">第十三章：荒原的风情</a></li>
+									<li><a href="#">第十四章：少女宿命的抉择</a></li>
+									<li><a href="#">第十五章：凌云城</a></li>
+								</ul>
+							</div>
+							<div class="flower flower1">第一卷</div>
+							<div class="flower flower2">第二卷</div>
+							<div class="flower flower3"><span>少女级</span></div>
+							<div class="flower flower4"><span>公主级</span></div>
+							
+						</div>
+					</li>
+					<li>
+						<h3>技能介绍</h3>
+						<div class="skill">
+							<ul>
+								<li><img src="" alt=""><p>沉睡魔咒</p></li>
+								<li><img src="" alt=""><p>反弹灰姑娘</p></li>
+								<li><img src="" alt=""><p>反弹礼物</p></li>
+								<li><img src="" alt=""><p>反弹挑剔</p></li>
+								<li><img src="" alt=""><p>真爱之吻</p></li>
+								<li><img src="" alt=""><p>灰姑娘时钟</p></li>
+								<li><img src="" alt=""><p>免疫灰姑娘</p></li>
+								<li><img src="" alt=""><p>免疫礼物</p></li>
+								<li><img src="" alt=""><p>免疫挑剔</p></li>
+								<li><img src="" alt=""><p>暖暖的微笑</p></li>
+								<li><img src="" alt=""><p>圣诞礼物</p></li>
+								<li><img src="" alt=""><p>挑剔的目光</p></li>
+								
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="tongren">
+			<div class="content w"></div>
+		</div>
 	</body>
+	<script src="js/lib/jquery-2.1.1.min.js"></script>
+	<script src="js/lib/jquery.carousel.js"></script>
+	<script src="js/index.js"></script>
+	
+	<script>
+	
+	</script>
 </html>
