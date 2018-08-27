@@ -13,13 +13,13 @@ $(document).ready(function () {
 	});
 	
 	//给游戏特色里的li添加背景图片
-	$(".feature li").each(function (index,element) {
+	$(".feature li").each(function (index) {
 		$(this).css({
 			background:"url('images/yxts/" + (index+1) +".jpg') no-repeat"
 		});
 	});
 	//给游戏特色添加点击翻页效果
-	$(".feature .spans span").each(function (index,element) {
+	$(".feature .spans span").each(function (index) {
 		$(this).click(function () {
 			
 			$(".feature .spans span").each(function (index,element) {
@@ -32,4 +32,10 @@ $(document).ready(function () {
 			
 		});
 	});
+	
+	//给同人视频添加背景图片
+	$(".tongren .vu img").each(function (index) {
+		$(this).attr("src","images/tongren/" +(1+index)+ ".png");
+		console.log(22);
+	})
 });
