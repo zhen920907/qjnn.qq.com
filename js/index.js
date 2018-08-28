@@ -38,4 +38,6 @@ $(document).ready(function () {
 		$(this).attr("src","images/tongren/" +(1+index)+ ".png");
 		console.log(22);
 	})
+	
+	
 });

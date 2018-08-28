@@ -8,9 +8,11 @@
 		<link href="favicon.ico" rel="shortcut icon"/>
 		<link href="css/base.css" rel="stylesheet">
 		<link href="css/carousel.css" rel="stylesheet">
+		<link href="css/swiper.min.css" rel="stylesheet" >
 		<link href="css/index.css" rel="stylesheet">
 	</head>
 	<body>
+		
 		<!--header-->
 		<header class="clearfix">
 			<div class="w">
@@ -46,8 +48,7 @@
 			</ul>
 		</nav>
 		<!--背景大图介绍-->
-		<div class="introduce w">
-			<!--<img src="images/bg_01.jpg" alt="">-->
+		<div class="introduce w header-kv ">
 		</div>
 		<!--新闻-->
 		<div class="news clearfix">
@@ -344,12 +345,21 @@
 			</div>
 		
 		</div>
+		
+		
 	</body>
 	<script src="js/lib/jquery-2.1.1.min.js"></script>
 	<script src="js/lib/jquery.carousel.js"></script>
+	<script src="js/lib/snowfall.jquery.js"></script>
 	<script src="js/index.js"></script>
 	
 	<script>
-	
+		$(document).snowfall('clear');
+		$(document).snowfall({
+			image: "images/flowers/huaban.png",
+			flakeCount:30,
+			minSize: 25,
+			maxSize: 50
+		});
 	</script>
 </html>
