@@ -27,13 +27,20 @@ header {
 	float: right;
 	line-height: 40px;
 }
-
+.grow_protect:hover{
+	color: red;
+	cursor: pointer;
+}
 .game_rank {
 	line-height: 40px;
 	font-size: 14px;
 	width: 110px;
 	height: 40px;
 	float: right;
+}
+.game_rank:hover{
+	color: red;
+	cursor: pointer;
 }
 /*导航栏开始*/
 nav {
@@ -160,6 +167,10 @@ nav ul li:hover {
 	width: 225px;
 	height: 300px;
 }
+.news a:hover{
+	color: red;
+	text-decoration: underline;
+}
 /*美好之旅开始*/
 .travel {
 	text-align: center;
@@ -172,7 +183,7 @@ nav ul li:hover {
 }
 /*游戏特色开始*/
 .feature{
-	background: url("../images/bg_04.jpg")top center ;
+	background: url("../images/bg_04.jpg")top center no-repeat;
 	height: 570px;
 }
 .feature .pics{
@@ -358,22 +369,142 @@ nav ul li:hover {
 	border: 1px solid #E8E8E8;
 	background-color: #F8F8F8;
 }
-/*游戏特色开始*/
-
 
 /*同人部分*/
 .tongren{
 	height: 593px;
 	background: url("../images/bg_06.jpg") top center no-repeat;
 }
-
-
-
-
-
-
-
-
+.tongren .content{
+	margin-top: 66px;
+}
+.tongren .cl{
+	float: left;
+	width: 400px;
+	height: 420px;
+	background-color: white;
+}
+.tongren h3{
+	margin:0 15px;
+	width: 370px;
+	height: 60px;
+	line-height: 60px;
+	background: url("../images/cmore.png") right center no-repeat;
+	background-size: 20px 20px;
+	border-bottom: 1px solid #E8E8E8;
+	font-size: 18px;
+}
+.tongren .vu{
+	width: 360px;
+	height: 310px;
+	margin: 18px 23px 28px 18px;
+}
+.tongren .vu li{
+	float: left;
+	margin: 0 10px 20px 0;
+}
+.tongren .vu img{
+	width: 170px;
+	height: 145px;
+}
+.tongren .mh div{
+	float: left;
+	margin: 20px 0 20px 15px    ;
+}
+.tongren .mh img{
+	width: 170px;
+	height: 145px;
+}
+.tongren .mu{
+	width: 366px;
+	height: 174px;
+	float: left;
+	margin-left: 16px;
+	margin-right: 15px;
+}
+.tongren .mu li{
+	height: 28px;
+	width: 100%;
+}
+.tongren .mu span{
+	float: right;
+}
+.tongren .mu a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.tongren .xs div{
+	margin-top: 20px;
+	margin-left: 15px;
+}
+.tongren .xu{
+	margin: 20px 0 20px 15px;
+	
+}
+/*合伙人开始*/
+.partner{
+	background-color: #F8F8F8;
+}
+.partner .bg{
+	background: url("../images/partner.png")center center no-repeat;
+	height: 255px;
+}
+/*footer开始*/
+/* 底部footer开始 */
+.gl_footer {
+	background: #B77986;
+	height: 86px;
+}
+.gl_footer .glf_w {
+	text-align: center;
+	height: 72px;
+	padding-top: 14px;
+}
+.gl_footer ul {
+	/* background: #000; */
+	
+}
+.gl_footer ul li {
+	float: left;
+	position: relative;
+	
+}
+.gl_footer ul li:nth-child(1) {
+	margin-left: 191px;
+}
+.gl_footer ul li a {
+	padding: 0 5px;
+	color : #fff;
+	
+}
+.gl_line3::after {
+	content: '';
+	display: inline-block;
+	width: 1px;
+	height: 12px;
+	background: #fff;
+	position: absolute;
+	top :3px;
+	right: -1px;
+}
+.gl_footer .glf_w p:nth-child(2) {
+	margin-top : 4px;
+}
+.gl_footer p span {
+	margin: 0px;
+	padding: 0px;
+	color: #fff;
+	font-size: 10px;
+}
+.gl_footer .glf_w p:nth-child(3) {
+	margin-top : 4px;
+}
+.gl_footer p a {
+	color: #fff;
+	font-size: 10px;
+	margin: 0;
+	padding: 0;
+}
 
 
 
