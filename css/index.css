@@ -1,3 +1,51 @@
+/*service开始*/
+.service{
+	position: fixed;
+	top: 220px;
+	left: 65px;
+	z-index: 1;
+}
+/*滚动栏开始*/
+.siderbar{
+	background: url("../images/cedaohang.png") no-repeat;
+	width: 160px;
+	height: 410px;
+	position: fixed;
+	right: 20px;
+	top: 170px;
+	z-index: 1;
+}
+.siderbar ul{
+	width: 90px;
+	height: 315px;
+	margin: 60px auto;
+	text-align: center;
+}
+.siderbar li{
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px;
+	border-bottom: 1px solid #F1A8AD;
+}
+.siderbar a.current{
+	color:#B45C69 !important;
+}
+.siderbar a{
+	color:#FDEFF0
+}
+.siderbar .top i{
+	display: inline-block;
+	width: 80px;
+	height: 30px;
+	background-color: #FA9FA8;
+	color: #9B5566;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 30px;
+}
+.siderbar i:hover{
+	cursor:pointer;
+}
 /*头部开始*/
 header {
 	border: 1px solid #E4E7EA;
@@ -80,6 +128,7 @@ nav ul li:hover {
 	height: 280px;
 	position: relative;
 	background: url("../images/bg_02.jpg") center no-repeat;
+	z-index: 0;
 }
 
 .news .warp {
@@ -146,7 +195,15 @@ nav ul li:hover {
 	float: left;
 	margin: 0 10px;
 }
-
+.news .warp .content:nth-child(3){
+	display: none;
+}
+.news .warp .content:nth-child(4){
+	display: none;
+}
+.news .warp .content:nth-child(5){
+	display: none;
+}
 .news .content li {
 	height: 50px;
 	line-height: 50px;

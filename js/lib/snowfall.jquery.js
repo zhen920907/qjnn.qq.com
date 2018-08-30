@@ -30,7 +30,7 @@
 			minSize: 1,
 			maxSize: 2,
 			minSpeed: 1,
-			maxSpeed: 5,
+			maxSpeed: 3,
 			round: false,
 			shadow: false,
 			collection: false,
