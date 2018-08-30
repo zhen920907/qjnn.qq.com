@@ -1,0 +1,386 @@
+
+/* nav开始 */
+.gl_nav {
+  height: 96px;
+}
+.gl_nav .gl_logo {
+  width: 221px;
+  height: 72px;
+  margin-top:11px;
+  float: left;
+  background: url(../images/h_images/logo.png);
+}
+.gl_nav ul {
+  margin-top: 34px;
+  float: right;
+}
+.gl_nav ul li {
+  float: left; 
+  width: 101px;
+  text-align: center;
+  position : relative;
+  cursor: pointer;
+}
+.gl_nav ul li:last-child {
+  width : 67px;
+  padding-left: 18px;
+  
+}
+.gl_nav ul li a {
+  color: #5F3E4F;
+  font-size: 16px;
+}
+.gl_nav ul li:nth-child(5) a {
+  color: #EB8594;
+}
+.gl_nav ul li a:hover {
+  color : orange;
+}
+.gl_line1::after {
+  content:'';
+  display: inline-bolck;
+  background: #C0C1C2;
+  width: 1px;
+  height: 18px;
+  position : absolute;
+  top : 1px;
+  left : 100px;
+}
+/*      nav结束       */
+
+/*    banner开始    */
+.gl_banner {
+  width: 100%;
+  height: 676px;
+  background: url(../images/h_images/hd_bar.jpg) no-repeat top center;
+  /* position: relative; */
+}
+.gl_banner .gameGl {
+  /* position: absolute; */
+  margin-top : 493px;
+  /* background: pink; */
+}
+.gl_banner .gameGl .gameGl_title{
+  width: 213px;
+  height: 50px;
+  /* background: pink; */
+ background: url(../images/h_images/title.png) no-repeat -5px -14px;
+  
+
+  margin-bottom: 34px;
+}
+.gl_banner .gameGl span {
+  font-size : 18px;
+  color : #5F3E4F;
+}
+.gl_banner .gameGl span:nth-child(4) {
+  color : #EB8594;
+}
+
+.gl_banner .gameGl a {
+  font-size: 18px;
+  color : #000;
+}
+.gl_banner .gameGl .title_bar{
+  margin-top : 36px;
+  width: 1000px;
+  height: 52px;
+  line-height: 52px;
+  cursor: pointer;
+  /* text-align: center; */
+  background: url(../images/h_images/title_bar.png);
+}
+.gl_banner .gameGl .title_bar li {
+  float: left;
+  list-style: none;
+  width: 25%;
+  text-align: center;
+  font-size: 20px;
+  color: #5F3E4F;
+  position: relative;
+  /* margin-right:  */
+}
+.gl_banner .gameGl .title_bar .liColor {
+  color : #EB8594;
+}
+.gl_line2::after {
+  content: '';
+  display: block;
+  width: 250px;
+  height: 3px;
+  background: #DF5768;
+  position: absolute;
+  top: 50px;
+}
+/* banner结束 */
+
+/* 活动攻略activeGl开始 */
+
+.activeGl {
+  margin-top : 11px;
+}
+.activeGl li {
+  height: 50px;
+  line-height: 50px;
+  border-bottom : 1px dotted #DF5768;
+  position: relative;
+
+}
+.activeGl li a {
+  color: #000;
+  font-size: 16px;
+}
+.activeGl li a:hover{
+  color : #DF5768;
+  text-decoration: underline;
+}
+.activeGl li span {
+  color : #000;
+  font-size: 16px;
+  position: absolute;
+  /* top : ; */
+  right : 1px;
+}
+.activeGl .next_page {
+  width: 112px;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  border: 1px solid #5F3E4F;
+  margin: 15px auto 0;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.activeGl .next_page a {
+  font-size: 14px;
+  color: #000;
+}
+
+
+
+/* 活动攻略activeGl结束 */
+
+/* 少女级S通关开始 */
+.first_guan {
+  margin-top : 35px;
+}
+.erJuan {
+  height: 68px;
+  width: 591px;
+  background: url(../images/h_images/volume.png) 0 0;
+  margin: 0 auto;
+}
+.erJuan_first {
+  margin-top: 23px; 
+  height: 209px;
+}
+.right_tab {
+  width: 946px;
+  height: 209px;
+  line-height: 209px;
+  text-align: center;
+  font-size: 18px;
+  color: #000;
+  /* border: 1px solid #BDBDBD; */
+  box-shadow: 0 0 3px 3px #F6F6F6;
+  float: right;
+}
+ .left_tab {
+  width: 78px;
+  height: 209px;
+  /* line-height: 209px; */
+  background: #F6F6F6;
+  /* border: 1px solid #BDBDBD; */
+  box-shadow: 0 0 3px 3px #F6F6F6;
+  float: left;
+  position: relative;
+}
+.left_tab span {
+  color : #000;
+  font-size: 18px;
+  display: inline-block;
+  padding: 19px 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+
+.yiJuan {
+  height: 79px;
+  width: 591px;
+  background: url(../images/h_images/volume.png) 0 -71px;
+  margin: 25px auto 0;
+}
+.yiJuan_first {
+  margin-top: 60px; 
+  height: 209px;
+  /* background: pink; */
+}
+ .yiJuan_rtab {
+  width: 926px;
+  height: 206px;
+  /* text-align: center; */
+  font-size: 18px;
+  color: #000;
+  /* border: 1px solid #BDBDBD; */
+  box-shadow: 0 0 3px 3px #F6F6F6;
+  float: right;
+  padding-top: 30px;
+  padding-left: 20px;
+ 
+}
+ .yiJuan_rtab .box {
+  width: 139px;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  float: left;
+  margin-right: 46px;
+  margin-bottom: 18px;
+  background: url(../images/h_images/tg-ic.png);
+}
+ .yiJuan_ltab {
+  width: 78px;
+  height: 236px;
+  background: #F6F6F6;
+  /* border: 1px solid #BDBDBD; */
+  box-shadow: 0 0 3px 3px #F6F6F6;
+  float: left;
+  position: relative;
+}
+ .yiJuan_ltab span {
+  color : #000;
+  font-size: 18px;
+  display: block;
+  padding: 19px 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+
+/* 少女级S通关结束 */
+
+/* 技能介绍开始 */
+.skill {
+  /* width: 1028px; */
+  height: 2482px;
+  margin: 0 auto;
+  box-shadow: 0 0 5px 3px #EFEFEF;
+  margin-top: 35px;
+}
+.skill ul {
+  padding: 0 100px;
+  height: 2482px;
+  /* background: pink; */
+}
+.skill li {
+  height: 189px;
+  /* line-height: 189px; */
+  padding-left: 44px;
+  border-bottom: 1px dashed #DF5768;
+  /* position: relative; */
+}
+.skill li .img {
+  height: 189px;
+  float: left;
+  line-height: 189px;
+  margin-right: 68px;
+} 
+.skill li .p {
+  float: left;
+}
+.skill li p {
+  margin-top: 36px;
+  font-size: 16px;
+  color: #5F3E4F;
+}
+li:last-child {
+  border-bottom : none;
+}
+/* 技能介绍结束 */
+
+
+.block {
+  display: block;
+}
+.cy{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 底部footer开始 */
+.gl_footer {
+  background: #B77986;
+  height: 86px;
+  margin-top: 95px;
+ 
+}
+.gl_footer .glf_w {
+  text-align: center;
+  height: 72px;
+  padding-top: 14px;
+}
+.gl_footer ul {
+  /* background: #000; */
+ 
+}
+.gl_footer ul li {
+  float: left;
+  position: relative;
+
+}
+.gl_footer ul li:nth-child(1) {
+  margin-left: 191px;
+}
+.gl_footer ul li a {
+  padding: 0 5px;
+  color : #fff;
+ 
+}
+.gl_line3::after {
+  content: '';
+  display: inline-block;
+  width: 1px;
+  height: 12px;
+  background: #fff;
+  position: absolute;
+  top :3px;
+  right: -1px;
+}
+.gl_footer .glf_w p:nth-child(2) {
+  margin-top : 4px;
+}
+.gl_footer p span {
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+  font-size: 10px;
+}
+.gl_footer .glf_w p:nth-child(3) {
+  margin-top : 4px;
+}
+.gl_footer p a {
+  color: #fff;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+/* 底部footer结束 */
+ body {
+  height: 2500px;
+  /* overflow: hidden; */
+}  

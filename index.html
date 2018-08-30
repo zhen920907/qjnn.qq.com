@@ -5,13 +5,31 @@
 		<meta name="viewport"
 		      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-		<link href="css/community/community.css" rel="stylesheet">
-		<link href="favicon.ico" rel="shortcut icon" />
+		<link href="favicon.ico" rel="shortcut icon"/>
 		<link href="css/base.css" rel="stylesheet">
+		<link href="css/carousel.css" rel="stylesheet">
+		<link href="css/swiper.min.css" rel="stylesheet" >
 		<link href="css/index.css" rel="stylesheet">
 	</head>
 	<body>
+		
+		<!--service-->
+		<div class="service">
+			<img src="images/sevice.png" alt="">
+		</div>
+		<div class="siderbar">
+			<ul>
+				<li ><a href="#" class="current">新闻特色</a></li>
+				<li ><a href="#">美好之旅</a></li>
+				<li><a href="#">游戏特色</a></li>
+				<li><a href="#">游戏攻略</a></li>
+				<li><a href="#">同人站</a></li>
+				<li class="top">
+					<i>top</i>
+				</li>
+			</ul>
+		</div>
+		<!--header-->
 		<header class="clearfix">
 			<div class="w">
 				<div class="tencent_logo"></div>
@@ -22,31 +40,33 @@
 				</div>
 			</div>
 		</header>
+		<!---导航栏-->
 		<nav class="w clearfix">
 			<div class="logo">
 				<img src="images/logo.png" alt="logo">
 			</div>
 			<ul>
-				<li>官网首页</li>
+				<li><a href="index.html">官网首页</a></li>
 				<li>|</li>
-				<li>新闻资讯</li>
+				<li><a href="#">新闻资讯</a></li>
 				<li>|</li>
-				<li>游戏特色</li>
+				<li><a href="#"></a>游戏特色</li>
 				<li>|</li>
-				<li>套装图鉴</li>
+				<li><a href="pages\suit.html">套装图鉴</a></li>
 				<li>|</li>
-				<li>游戏攻略</li>
+				<li><a href="pages/h_index1.html"> 游戏攻略</a></li>
 				<li>|</li>
-				<li>同人站</li>
+				<li><a href="#"></a>同人站</li>
 				<li>|</li>
-				<li>兑换礼包</li>
+				<li><a href="#"></a>兑换礼包</li>
 				<li>|</li>
-				<li>玩家社区</li>
+				<li><a href="pages/community.html">玩家社区</a></li>
 			</ul>
 		</nav>
-		<div class="introduce w">
-			<!--<img src="images/bg_01.jpg" alt="">-->
+		<!--背景大图介绍-->
+		<div class="introduce w header-kv " id="news">
 		</div>
+		<!--新闻-->
 		<div class="news clearfix">
 			<div class="warp w">
 				<div class="left">
@@ -56,13 +76,95 @@
 						<li><img src="images/news/1535075445122728311.jpg" alt=""></li>
 					</ul>
 				</div>
-				<div class="center">
+				<div class="center" >
 					<ul class="tab">
 						<li class="current">热门</li>
 						<li>新闻</li>
 						<li>公告</li>
 						<li>活动</li>
 						<div class="more"></div>
+					</ul>
+					
+					<ul class="content">
+						<li>
+							<a href="#">[热门]</a>
+							<a href="#">【砂套装】凝凛冬之心 来自雪山的守护</a>
+							<span>08/25</span>
+						</li>
+						<li>
+							<a href="#">[热门]</a>
+							<a href="#">【多重活动】大喵限时制衣开启 特惠礼包助力</a>
+							<span>08/24</span>
+						</li>
+						<li>
+							<a href="#">[热门]</a>
+							<a href="#">【多重活动】双倍福利开启 珍稀萤光之灵复刻</a>
+							<span>08/22</span>
+						</li>
+						<li>
+							<a href="#">[热门]</a>
+							<a href="#">【复开】魑魅之城 限时开启探索！</a>
+							<span>08/21</span>
+						</li>
+						<li>
+							<a href="#">[热门]</a>
+							<a href="#">【新套装】少女与狮 远方漂泊的思念</a>
+							<span>08/17</span>
+						</li>
+					</ul>
+					<ul class="content">
+						<li>
+							<a href="#">[新闻]</a>
+							<a href="#">【砂套装】凝凛冬之心 来自雪山的守护</a>
+							<span>08/25</span>
+						</li>
+						<li>
+							<a href="#">[新闻]</a>
+							<a href="#">【多重活动】大喵限时制衣开启 特惠礼包助力</a>
+							<span>08/24</span>
+						</li>
+						<li>
+							<a href="#">[新闻]</a>
+							<a href="#">【多重活动】双倍福利开启 珍稀萤光之灵复刻</a>
+							<span>08/22</span>
+						</li>
+						<li>
+							<a href="#">[新闻]</a>
+							<a href="#">【复开】魑魅之城 限时开启探索！</a>
+							<span>08/21</span>
+						</li>
+						<li>
+							<a href="#">[新闻]</a>
+							<a href="#">【新套装】少女与狮 远方漂泊的思念</a>
+							<span>08/17</span>
+						</li>
+					</ul>
+					<ul class="content">
+						<li>
+							<a href="#">[公告]</a>
+							<a href="#">【砂套装】凝凛冬之心 来自雪山的守护</a>
+							<span>08/25</span>
+						</li>
+						<li>
+							<a href="#">[公告]</a>
+							<a href="#">【多重活动】大喵限时制衣开启 特惠礼包助力</a>
+							<span>08/24</span>
+						</li>
+						<li>
+							<a href="#">[公告]</a>
+							<a href="#">【多重活动】双倍福利开启 珍稀萤光之灵复刻</a>
+							<span>08/22</span>
+						</li>
+						<li>
+							<a href="#">[公告]</a>
+							<a href="#">【复开】魑魅之城 限时开启探索！</a>
+							<span>08/21</span>
+						</li>
+						<li>
+							<a href="#">[公告]</a>
+							<a href="#">【新套装】少女与狮 远方漂泊的思念</a>
+							<span>08/17</span>
+						</li>
 					</ul>
 					<ul class="content">
 						<li>
@@ -91,26 +193,272 @@
 							<span>08/17</span>
 						</li>
 					</ul>
+				
 				</div>
 				<div class="right">
 					<img src="images/qr-code.png" alt="">
 				</div>
 			</div>
 		</div>
-		<div class="travel">
-			<div class="wooden w">
-				<ul>
-					<li><img src="images/travel/1.jpg" alt=""></li>
-					<li><img src="images/travel/2.jpg" alt=""></li>
-					<li><img src="images/travel/3.jpg" alt=""></li>
-					<li><img src="images/travel/4.jpg" alt=""></li>
-					<li><img src="images/travel/5.jpg" alt=""></li>
+		<!--美好之旅-->
+		<div class="travel clearfix" id="travel">
+			
+			<div class="wooden w caroursel poster-main " data-setting='{
+	        "width":1000,
+	        "height":398,
+	        "posterWidth":640,
+	        "posterHeight":398,
+	        "scale":0.8,
+	        "dealy":"2000",
+	        "algin":"middle"
+	    }'>
+				<ul class="poster-list">
+					<li class="poster-item"><img src="images/travel/1.jpg" width="100%" height="100%"></li>
+					<li class="poster-item"><img src="images/travel/2.jpg" width="100%" height="100%"></li>
+					<li class="poster-item"><img src="images/travel/3.jpg" width="100%" height="100%"></li>
+					<li class="poster-item"><img src="images/travel/4.jpg" width="100%" height="100%"></li>
+					<li class="poster-item"><img src="images/travel/5.jpg" width="100%" height="100%"></li>
 				</ul>
-				<div class="arrow">
-					<a href="#" class="prev" id="arrLeft"></a>
-					<a href="#" class="next" id="arrRight"></a>
+				<div class="poster-btn poster-prev-btn"></div>
+				<div class="poster-btn poster-next-btn"></div>
+			</div>
+		</div>
+		<!--游戏特色-->
+		<div class="feature clearfix" id="feature">
+			<div class="pics w">
+				<ul class="ts">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				
+				</ul>
+				<div class="spans">
+					<span class="current"></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
 				</div>
 			</div>
 		</div>
+		<!--游戏攻略-->
+		<div class="game clearfix" id="game">
+			<div class="content w">
+				<ul class="gu">
+					<li>
+						<h3>活动攻略</h3>
+						<ul class="glul">
+							<img src="images/gl.jpg" alt="">
+							<li>
+								<a href="#">[活动攻略]</a><a href="#">【新套装】大喵废墟萌装 遇见十二星座</a>
+							</li>
+							<li>
+								<a href="#">[活动攻略]</a><a href="#">【套装制作】苹果联邦之流逝的回忆</a>
+							</li>
+							<li>
+								<a href="#">[活动攻略]</a><a href="#">【套装制作】苹果联邦之未完的约定</a>
+							</li>
+							<li>
+								<a href="#">[活动攻略]</a><a href="#">【盘点】那些奇迹大陆知识问答的服饰（3）</a>
+							</li>
+							<li>
+								<a href="#">[活动攻略]</a><a href="#">【盘点】那些奇迹大陆知识问答的服饰（2）</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<h3>通关攻略</h3>
+						<div class="tg clearfix">
+							<div class="tgc">
+								<ul>
+									<li><a href="#">第一章：初到麦川</a></li>
+									<li><a href="#">第二章：童话世界莉莉斯</a></li>
+									<li><a href="#">第三章：糖果女巫与星之海</a></li>
+									<li><a href="#">第四章：设计师茶会</a></li>
+									<li><a href="#">第五章：风云骤变的茶话会</a></li>
+									<li><a href="#">第六章：云端花田奇遇</a></li>
+									<li><a href="#">第七章：长街醉月楼</a></li>
+									<li><a href="#">第八章：神秘月下城</a></li>
+									<li><a href="#">第九章：梦幻搭配赛序曲</a></li>
+									<li><a href="#">第十章：梦幻搭配赛小组赛</a></li>
+									<li><a href="#">第十一章：梦幻搭配赛决赛</a></li>
+									<li><a href="#">第十二章：王城的混乱</a></li>
+									<li><a href="#">第十三章：荒原的风情</a></li>
+									<li><a href="#">第十四章：少女宿命的抉择</a></li>
+									<li><a href="#">第十五章：凌云城</a></li>
+								</ul>
+							</div>
+							<div class="flower flower1">第一卷</div>
+							<div class="flower flower2">第二卷</div>
+							<div class="flower flower3"><span>少女级</span></div>
+							<div class="flower flower4"><span>公主级</span></div>
+						
+						</div>
+					</li>
+					<li>
+						<h3>技能介绍</h3>
+						<div class="skill">
+							<ul>
+								<li><img src="" alt="">
+									<p>沉睡魔咒</p></li>
+								<li><img src="" alt="">
+									<p>反弹灰姑娘</p></li>
+								<li><img src="" alt="">
+									<p>反弹礼物</p></li>
+								<li><img src="" alt="">
+									<p>反弹挑剔</p></li>
+								<li><img src="" alt="">
+									<p>真爱之吻</p></li>
+								<li><img src="" alt="">
+									<p>灰姑娘时钟</p></li>
+								<li><img src="" alt="">
+									<p>免疫灰姑娘</p></li>
+								<li><img src="" alt="">
+									<p>免疫礼物</p></li>
+								<li><img src="" alt="">
+									<p>免疫挑剔</p></li>
+								<li><img src="" alt="">
+									<p>暖暖的微笑</p></li>
+								<li><img src="" alt="">
+									<p>圣诞礼物</p></li>
+								<li><img src="" alt="">
+									<p>挑剔的目光</p></li>
+							
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--同人站-->
+		<div class="tongren clearfix" id="tongren">
+			<div class="content w">
+				<ul>
+					<li class="cl">
+						<h3>视频</h3>
+						<ul class="vu">
+							<li><img src="" alt=""></li>
+							<li><img src="" alt=""></li>
+							<li><img src="" alt=""></li>
+							<li><img src="" alt=""></li>
+						</ul>
+					</li>
+					<li class="cl mh ">
+						<h3>漫画</h3>
+						<div><img src="images/tongren/5.jpg" alt=""></div>
+						<div><img src="images/tongren/6.jpg" alt=""></div>
+						<ul class="mu ">
+							<li>
+								<a href="#">漫画</a>
+								<a href="#">Nikki UP2U3 奇暖杂志 Vol .32</a>
+								<span>02/01</span>
+							</li>
+							
+							<li>
+								<a href="#">漫画</a>
+								<a href="#">【暖暖头像】昼夜回廊的交响曲</a>
+								<span>02/01</span>
+							</li>
+							
+							<li>
+								<a href="#">漫画</a>
+								<a href="#">【暖暖头像】荒原风情</a>
+								<span>02/01</span>
+							</li>
+							
+							<li>
+								<a href="#">漫画</a>
+								<a href="#">【暖暖漫画】樱花树下，我等你</a>
+								<span>02/01</span>
+							</li>
+							
+							<li>
+								<a href="#">漫画</a>
+								<a href="#">【暖暖漫画】为你唱的歌</a>
+								<span>02/01</span>
+							</li>
+						
+						</ul>
+					</li>
+					<li class="cl xs">
+						<h3>小说</h3>
+						<div><img src="images/tongren/7.jpg" width="370" height="142" alt=""></div>
+						<ul class="mu xu">
+							<li>
+								<a href="#">[小说]</a>
+								<a href="#">【同人文】永不凋零的花海·卷1</a>
+								<span>04/26</span>
+								
+							</li>
+							
+							<li>
+								<a href="#">[小说]</a>
+								<a href="#">【同人文】芬芳依旧，故人已散...</a>
+								<span>02/01</span>
+							</li>
+							<li>
+								<a href="#">[小说]</a>
+								<a href="#">【同人文】芬芳依旧，故人已散...</a>
+								<span>02/01</span>
+							</li>
+							<li>
+								<a href="#">[小说]</a>
+								<a href="#">【同人文】芬芳依旧，故人已散...</a>
+								<span>01/30</span>
+							</li>
+							<li>
+								<a href="#">[小说]</a>
+								<a href="#">【同人文】芬芳依旧，故人已散...</a>
+								<span>01/30</span>
+							</li>
+							
+							
+						
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--合作媒体-->
+		<div class="partner">
+			<div class="w bg"></div>
+		</div>
+		<!--footer-->
+		<div class="gl_footer">
+			<div class="glf_w w clearfix">
+				<ul class="clearfix">
+					<li class="gl_line3"><a href="#">腾讯互动娱乐</a></li>
+					<li class="gl_line3"><a href="#">服务条款</a></li>
+					<li class="gl_line3"><a href="#">隐私政策</a></li>
+					<li class="gl_line3"><a href="#">腾讯游戏招聘</a></li>
+					<li class="gl_line3"><a href="#">腾讯游戏客服</a></li>
+					<li class="gl_line3"><a href="#">游戏地图</a></li>
+					<li class="gl_line3"><a href="#">成长守护平台</a></li>
+					<li class="gl_line3"><a href="#">商务合作</a></li>
+					<li><a href="#">网站导航</a></li>
+				</ul>
+				<p><span>COPYRIGHT © 1998 – 2018 TENCENT. ALL RIGHTS RESERVED.</span></p>
+				<p><a href="#">腾讯公司 版权所有</a></p>
+			</div>
+		
+		</div>
+		
+		
 	</body>
+	<script src="js/lib/jquery-2.1.1.min.js"></script>
+	<script src="js/lib/jquery.carousel.js"></script>
+	<script src="js/lib/snowfall.jquery.js"></script>
+	<script src="js/index.js"></script>
+	
+	<script>
+		$(document).snowfall('clear');
+		$(document).snowfall({
+			image: "images/flowers/huaban.png",
+			flakeCount:20,
+			minSize: 25,
+			maxSize: 50
+		});
+	</script>
 </html>
