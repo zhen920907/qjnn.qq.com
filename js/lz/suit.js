@@ -17,16 +17,14 @@ $(function () {
     var $lis = $(".section .info > ul > li");
 
      $lis.mouseenter(function () {
-         $(this).css('opacity', 1).siblings().css('opacity',.5);
+         $(this).stop().animate({top:-30,left:30},500).siblings().stop().animate({top:0,left:0},500);
 
      });
 
-    $(".section .info > ul").mouseleave(function () {
-        $(this).children().css('opacity',1);
+    $lis.mouseleave(function () {
+        $(this).stop().animate({top:0,left:0},500);
 
     });
-
-
 });
 
 
