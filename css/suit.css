@@ -44,6 +44,17 @@ a{
     margin:0 auto;
 }
 
+#audio{
+    display: none;
+}
+#butterfly{
+    position:absolute;
+    width: 100px;
+    z-index: 100000;
+    transform: rotate(30deg);
+}
+
+
 /*相框效果开始*/
 /*html {
     background: url("images/hd_bar.jpg") no-repeat 50% 50%;
@@ -226,15 +237,18 @@ img {
     position: absolute;
     width: 158px;
     height: 158px;
-    top:150px;
-    left:25%;
+    top:180px;
+    left:8%;
     z-index: 999;
 }
 .bg {
     display: block;
+    /*width: 150px;*/
     width: 158px;
-    height: 158px;
-    background: url("../images/img_lz/videoPBtn.png") no-repeat;
+    height: 142px;
+    /*height: 122px;*/
+    background: url("../images/img_lz/hehua.png") no-repeat;
+    opacity: 0.8;
     position: absolute;
     animation: rotation 8s infinite linear;
 
@@ -312,26 +326,32 @@ img {
 }
 .section .info{
     width: 1100px;
-    height: 2100px;
+    height: 2400px;
     margin-top: 40px;
     overflow: hidden;
 }
 .section .info ul{
     width: 1100px;
-    height: 2100px;
+    height: 2400px;
     overflow: hidden;
+    /*background-color: rgba(192, 19, 54, 0.2);*/
 }
 .section .info ul.now{
     display: block;
 }
 .section .info ul li{
     width:  247px;
-    margin-top: 30px;
+    margin-top: 80px;
     margin-left: 20px;
     text-align: center;
+    position:relative;
     float: left;
+    background-color: purple;
     box-shadow: 0 0 10px 1px lightcoral;
     border-radius: 10px;
+}
+.section .info ul li:hover{
+    z-index: 10000;
 }
 
 
@@ -363,7 +383,7 @@ img {
 /*footer开始*/
 /* 底部footer开始 */
 .gl_footer {
-    margin-top: 1650px;
+    margin-top: 1950px;
     background: #B77986;
     height: 86px;
 
