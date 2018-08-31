@@ -71,6 +71,12 @@ nav ul li:hover a{
 }
 
 /*footer开始*/
+
+
+
+
+
+
 /* 底部footer开始 */
 .gl_footer {
 	background: #B77986;
@@ -126,3 +132,66 @@ nav ul li:hover a{
 	margin: 0;
 	padding: 0;
 }
+/* 底部footer开始 */
+.gl_footer {
+  background: #B77986;
+  height: 86px;
+  margin-top: 95px;
+ 
+}
+.gl_footer .glf_w {
+  text-align: center;
+  height: 72px;
+  padding-top: 14px;
+}
+.gl_footer ul {
+  /* background: #000; */
+ 
+}
+.gl_footer ul li {
+  float: left;
+  position: relative;
+
+}
+.gl_footer ul li:nth-child(1) {
+  margin-left: 191px;
+}
+.gl_footer ul li a {
+  padding: 0 5px;
+  color : #fff;
+ 
+}
+.gl_line3::after {
+  content: '';
+  display: inline-block;
+  width: 1px;
+  height: 12px;
+  background: #fff;
+  position: absolute;
+  top :3px;
+  right: -1px;
+}
+.gl_footer .glf_w p:nth-child(2) {
+  margin-top : 4px;
+}
+.gl_footer p span {
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+  font-size: 10px;
+}
+.gl_footer .glf_w p:nth-child(3) {
+  margin-top : 4px;
+}
+.gl_footer p a {
+  color: #fff;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+/* 底部footer结束 */
+ body {
+  height: 2500px;
+  /* overflow: hidden; */
+}  

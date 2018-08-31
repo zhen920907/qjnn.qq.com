@@ -3,7 +3,7 @@
   padding:0;
 }
 body{
-  height:2000px;
+  /* height:2000px; */
   background-color: #fff;
 }
 .col-gray{
@@ -13,7 +13,7 @@ body{
   color: #fe850f;
 }
 .grid--examples{
-  width:1280px;
+  width:1200px;
 }
 .inner{
   width: 1200px;
@@ -27,7 +27,7 @@ body{
   clear: both;
 }
 
-/* tabStart */
+/* tabStart
 .inner div ul.nav.nav-tabs li a{
   color: rgb(72, 86, 133);
   font-size: 18px;
@@ -81,4 +81,29 @@ body{
   cursor: pointer;
 }
 /* tabEnd */
-
+ 
+.second-content{
+  width: 100%;
+  height: 500px;
+}
+.second-content img{
+  width: 100%;
+  height: 100%;
+}
+.container .inner .intro dt{
+  font-weight: normal;
+}
+.font-img{
+  width: 480px;
+  height: 120px;
+  margin: 0 auto;
+}
+.font-img.one{
+  
+  background:url('../../images/community/font-img2.png') no-repeat center top;
+}
+.font-img.two{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background:url('../../images/community/font-img1.png') no-repeat center top;
+}
