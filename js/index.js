@@ -1,5 +1,14 @@
 
 $(document).ready(function () {
+	//花瓣效果
+	$(document).snowfall('clear');
+	$(document).snowfall({
+		image: "images/flowers/huaban.png",
+		flakeCount:20,
+		minSize: 25,
+		maxSize: 50
+	});
+	
 	//旋转木马
 	Caroursel.init($('.caroursel'));
 	
@@ -9,7 +18,6 @@ $(document).ready(function () {
 
 	});
 	$(".siderbar li").click(function () {
-		console.log($(this).index());
 		if ($(this).index()===0){
 			$("html, body").stop(true).animate({
 				scrollTop: 200
@@ -31,12 +39,16 @@ $(document).ready(function () {
 				scrollTop: 2600
 			}, 1000)
 		}
+		
 	});
 	$(".siderbar li.top").click(function () {
 		$("html, body").stop(true).animate({
 			scrollTop: 0
 		}, 1000)
 	});
+	$(window).scroll(function (e) {
+		console.log(e.timeStamp)
+	})
 	
 	//给新闻设置tab栏切换
 	$(".tab li").bind({
