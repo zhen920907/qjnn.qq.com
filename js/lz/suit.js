@@ -17,12 +17,12 @@ $(function () {
     var $lis = $(".section .info > ul > li");
 
      $lis.mouseenter(function () {
-         $(this).stop().animate({top:-30,left:30},500).siblings().stop().animate({top:0,left:0},500);
+         $(this).stop().animate({top:-30},100).siblings().stop().animate({top:0},100);
 
      });
 
     $lis.mouseleave(function () {
-        $(this).stop().animate({top:0,left:0},500);
+        $(this).stop().animate({top:0},100);
 
     });
 });
