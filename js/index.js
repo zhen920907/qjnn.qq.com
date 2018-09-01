@@ -24,15 +24,15 @@ $(document).ready(function () {
 			}, 1000)
 		}else if($(this).index()===1){
 			$("html, body").stop(true).animate({
-				scrollTop: 800
+				scrollTop: 1000
 			}, 1000)
 		}else if($(this).index()===2){
 			$("html, body").stop(true).animate({
-				scrollTop: 1200
+				scrollTop: 1400
 			}, 1000)
 		}else if($(this).index()===3){
 			$("html, body").stop(true).animate({
-				scrollTop: 2000
+				scrollTop: 2200
 			}, 1000)
 		}else if($(this).index()===4){
 			$("html, body").stop(true).animate({
@@ -46,9 +46,23 @@ $(document).ready(function () {
 			scrollTop: 0
 		}, 1000)
 	});
-	$(window).scroll(function (e) {
-		console.log(e.timeStamp)
-	})
+	
+	// $(window).on("scroll",function () {
+	// 	let top = $(this).scrollTop();
+	// 	if(top>=1000&&top<=1300){
+	// 		$(".siderbar li a").eq(1).addClass("current").parent().siblings().children().removeClass("current");;
+	// 	}else if (top>=1400&&top<=2100){
+	// 		$(".siderbar li a").eq(2).addClass("current").parent().siblings().children().removeClass("current");;
+	// 	}
+	// 	else if(top>=2200&&top<=2450){
+	// 		$(".siderbar li a").eq(3).addClass("current").parent().siblings().children().removeClass("current");;
+	// 	}else if (top>=2500){
+	// 		$(".siderbar li a").eq(4).addClass("current").parent().siblings().children().removeClass("current");;
+	// 	} else{
+	// 		$(".siderbar li a").eq(0).addClass("current").parent().siblings().children().removeClass("current");;
+	// 	}
+	// });
+	
 	
 	//给新闻设置tab栏切换
 	$(".tab li").bind({
