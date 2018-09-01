@@ -334,7 +334,7 @@
 .game .flower4{
 	background: url("../images/strategy.png") right center no-repeat ;
 	top: 155px;
-	left: 0px;
+	left: -1px;
 	width: 44px;
 	height: 160px;
 }
