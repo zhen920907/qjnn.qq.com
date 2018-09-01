@@ -6,6 +6,12 @@ body{
   /* height:2000px; */
   background-color: #fff;
 }
+nav ul li a{
+  text-decoration: none;
+}
+nav ul li a:hover{
+  text-decoration: none;
+}
 .col-gray{
   color: #ccc;
 }
@@ -230,7 +236,6 @@ html {
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
   background-color: #ecf0f9;
   background-attachment: fixed;
 }
@@ -400,4 +405,7 @@ body {
 .button:active:before {
   transform: translateZ(-20px);
   top: 12px;
+}
+body{
+  background-color: #fff;
 }
