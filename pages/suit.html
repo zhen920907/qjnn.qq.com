@@ -10,7 +10,7 @@
 </head>
 <body>
 <!--蝴蝶-->
-<img src="../images/img_lz/hd.gif" id="butterfly" alt="">
+<!--<img src="../images/img_lz/hd.gif" id="butterfly" alt="">-->
 <!--落花-->
 <div class="falling-leaves" style=""></div>
 <audio id="audio" controls>
@@ -27,26 +27,27 @@
         </div>
     </div>
 </header>
+<!---导航栏-->
 <nav class="w clearfix">
     <div class="logo">
         <img src="../images/logo.png" alt="logo">
     </div>
     <ul>
-        <li>官网首页</li>
+        <li><a href="../index.html">官网首页</a></li>
         <li>|</li>
-        <li>新闻资讯</li>
+        <li><a href="#">新闻资讯</a></li>
         <li>|</li>
-        <li>游戏特色</li>
+        <li><a href="#">游戏特色</a></li>
         <li>|</li>
-        <li>套装图鉴</li>
+        <li><a href="javascript:;">套装图鉴</a></li>
         <li>|</li>
-        <li>游戏攻略</li>
+        <li><a href="h_index1.html"> 游戏攻略</a></li>
         <li>|</li>
-        <li>同人站</li>
+        <li><a href="#">同人站</a></li>
         <li>|</li>
-        <li>兑换礼包</li>
+        <li><a href="#">兑换礼包</a></li>
         <li>|</li>
-        <li>玩家社区</li>
+        <li><a href="community.html">玩家社区</a></li>
     </ul>
 </nav>
 
@@ -1489,12 +1490,12 @@
     music.load();
     music.play();
 
-    //蝴蝶效果
-    var  butterfly = document.querySelector("#butterfly");
-    document.onmousemove = function(e){
-        butterfly.style.left = e.pageX-10 +'px';
-        butterfly.style.top = e.pageY-10 +'px';
-    }
+    // //蝴蝶效果
+    // var  butterfly = document.querySelector("#butterfly");
+    // document.onmousemove = function(e){
+    //     butterfly.style.left = e.pageX-10 +'px';
+    //     butterfly.style.top = e.pageY-10 +'px';
+    // }
 
 </script>
 
