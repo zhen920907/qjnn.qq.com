@@ -12,12 +12,8 @@ $(document).ready(function () {
 	//旋转木马
 	Caroursel.init($('.caroursel'));
 	
-	//设置滑动栏
-	$(".siderbar li a").click(function () {
-		$(this).addClass("current").parent().siblings().children().removeClass("current");
-
-	});
 	$(".siderbar li").click(function () {
+		$(this).children().addClass("current").parent().siblings().children().removeClass("current");
 		if ($(this).index()===0){
 			$("html, body").stop(true).animate({
 				scrollTop: 200
@@ -47,21 +43,21 @@ $(document).ready(function () {
 		}, 1000)
 	});
 	
-	// $(window).on("scroll",function () {
-	// 	let top = $(this).scrollTop();
-	// 	if(top>=1000&&top<=1300){
-	// 		$(".siderbar li a").eq(1).addClass("current").parent().siblings().children().removeClass("current");;
-	// 	}else if (top>=1400&&top<=2100){
-	// 		$(".siderbar li a").eq(2).addClass("current").parent().siblings().children().removeClass("current");;
-	// 	}
-	// 	else if(top>=2200&&top<=2450){
-	// 		$(".siderbar li a").eq(3).addClass("current").parent().siblings().children().removeClass("current");;
-	// 	}else if (top>=2500){
-	// 		$(".siderbar li a").eq(4).addClass("current").parent().siblings().children().removeClass("current");;
-	// 	} else{
-	// 		$(".siderbar li a").eq(0).addClass("current").parent().siblings().children().removeClass("current");;
-	// 	}
-	// });
+	$(window).on("scroll",function () {
+		let top = $(this).scrollTop();
+		if(top>=1000&&top<=1300){
+			$(".siderbar li a").eq(1).addClass("current").parent().siblings().children().removeClass("current");;
+		}else if (top>=1400&&top<=2100){
+			$(".siderbar li a").eq(2).addClass("current").parent().siblings().children().removeClass("current");;
+		}
+		else if(top>=2200&&top<=2450){
+			$(".siderbar li a").eq(3).addClass("current").parent().siblings().children().removeClass("current");;
+		}else if (top>=2500){
+			$(".siderbar li a").eq(4).addClass("current").parent().siblings().children().removeClass("current");;
+		} else if (top<=1000) {
+			$(".siderbar li a").eq(0).addClass("current").parent().siblings().children().removeClass("current");;
+		}
+	});
 	
 	
 	//给新闻设置tab栏切换
@@ -81,6 +77,28 @@ $(document).ready(function () {
 			height : 74+"px"
 		});
 		$(this).attr("src","images/jnjs/"+(index+1)+".png");
+	});
+	
+	//通关攻略部分
+	$(".flower2,.flower1").on("click",function () {
+		console.log(111);
+		$(this).css({
+			top:"1px",
+			background:"url('images/strategy.png') top center no-repeat"
+		}).siblings().css({
+			top:"-1px",
+			background:"url('images/strategy.png') bottom center no-repeat"
+		})
+	});
+	
+	$(".flower3,.flower4").on("click",function () {
+		$(this).css({
+			left:"1px",
+			background:"url('images/strategy.png') left center no-repeat"
+		}).siblings().css({
+			left:"-1px",
+			background:"url('images/strategy.png')  right center no-repeat"
+		})
 	});
 	
 	//给游戏特色里的li添加背景图片
